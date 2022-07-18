@@ -6,8 +6,8 @@ import { Container, Button, Image } from './styles'
 function App() {
 
   let images = {
-    lampOn: 'https://media.discordapp.net/attachments/971165654352793643/998471587076513842/acesa.gif',
-    lampOff: 'https://media.discordapp.net/attachments/971165654352793643/998471423142146088/apagada.gif'
+    lampOn: 'https://media.discordapp.net/attachments/971165654352793643/998612731269759186/lampOn.gif',
+    lampOff: 'https://media.discordapp.net/attachments/971165654352793643/998612760504045618/lampOff.gif'
   }
 
   const turnOn = () => {
