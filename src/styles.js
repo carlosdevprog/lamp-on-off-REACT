@@ -11,18 +11,27 @@ export const Container = styled.div`
 
 
 export const Button = styled.button`
- width: 150px;
-    height: 35px;
+    width: 150px;
+    height: 40px;
     background-color: #8080808a;
     border: none;
-    border-radius: 30px;
     font-size: 20px;
     cursor: pointer;
+    box-shadow: 10px 5px 5px 	#1C1C1C;
+
     &:hover#on{
         background-color: #ffff00a7;
     }
     &:hover#off{
         background-color: #808080;
+    }
+
+    &:active#on{
+        opacity: 0.5;
+    }
+
+    &:active#off{
+        opacity: 0.5;
     }
 `
 
