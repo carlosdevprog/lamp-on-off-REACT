@@ -2,11 +2,13 @@ import styled from "styled-components"
 
 
 export const Container = styled.div`
- display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-    height: 100vh;    
+    gap: 120px;
+    margin-top: 10px;
+    
+   
 `
 
 
@@ -38,4 +40,17 @@ export const Button = styled.button`
 
 export const Image = styled.img`
 height: 300px;
+`
+
+export const H1 = styled.h1`
+text-align: center;
+margin-top: 30px;
+font-weight: 600;
+font-size: 60px;
+`
+
+export const P = styled.p`
+font-size: 30px;
+padding: 20px;
+
 `
