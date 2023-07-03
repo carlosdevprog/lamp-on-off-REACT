@@ -9,6 +9,7 @@ export default createGlobalStyle`
     background-color: #DCDCDC;
     font-family: 'Poppins', sans-serif;
     
+    
 }
 
 `
